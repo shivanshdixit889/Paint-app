@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Painting</title>
+    <link rel="stylesheet" href="../Css/Index.Css">
+    <link rel="icon" href="../img/title.png" type="image/x-icon">
+</head>
+<body>
+    <Div id="Tools">
+        <Div id="Shapes">
+            <Div id="Title-of-Shapes">
+                <li>Shapes</li>
+            </Div>
+            <Div id="Rectangle" class="Tool">
+                <img src="../Shapes/rectangle.svg" alt="Rectangle" id="rectangle" draggable="false">
+                <Div id="rectangle-text">
+                    <span id="Main-rectangle-text">Rectangle</span>
+                </Div>
+            </Div>
+            <Div id="Circle" class="Tool">
+                <img src="../Shapes/circle.svg" alt="Rectangle" id="rectangle" draggable="false">
+                <Div id="Circle-text">
+                    <span id="Main-Circle-text">Circle</span>
+                </Div>
+            </Div>
+            <Div id="Triangle" class="Tool">
+                <img src="../Shapes/triangle.svg" alt="Rectangle" id="rectangle" draggable="false">
+                <Div id="triangle-text">
+                    <span id="Main-triangle-text">Triangle</span>
+                </Div>
+            </Div>
+            <Div id="Line" class="Tool">
+                <img src="../Shapes/Line.svg" alt="Line" id="Line" draggable="false">
+                <Div id="Line-text">
+                    <span id="Main-Line-text">Line</span>
+                </Div>
+            </Div>
+            <Div id="Color-fill">
+                <input type="checkBox" id="fillcolor">
+                <Div id="Fillcolor-text">
+                    <span id="Main-Fillcolor-text">Fill Color</span>
+                </Div>
+            </Div>
+        </Div>
+        <Div id="Painting">
+            <Div id="Title-of-Painting">
+                <li>Painting</li>
+            </Div>
+            <Div id="brush" class="Tool">
+                <img src="../Shapes/brush.svg" alt="Rectangle" id="brush" draggable="false">
+                <Div id="brush-text">
+                    <span id="Main-brush-text">Brush</span>
+                </Div>
+            </Div>
+            <Div id="eraser" class="Tool">
+                <img src="../Shapes/eraser.svg" alt="Rectangle" id="rectangle" draggable="false">
+                <Div id="eraser-text">
+                    <span id="Main-Eraser-text">Eraser</span>
+                </Div>
+            </Div>
+        </Div>
+        <Div id="Color-slide">
+            <Div id="Sizeside">
+                <input type="range" id="side" value="5" min="0" max="32">
+            </Div>
+        </Div>
+        <Div id="Back">
+            <Div id="Title-of-Back-Color">
+                <li>Background Color</li>
+            </Div>
+            <Div id="Color">
+                <Div id="Back">
+                    <li class="c"></li>
+                    <li class="b"></li>
+                    <div id="col">
+                        <input type="color" id="back-color" value="#1e90ff">
+                    </div>
+                </Div>
+            </Div>
+    </Div>
+        <Div id="C">
+            <Div id="Title-of-Back-Colorselect">
+                <li>Color Select</li>
+            </Div>
+            <Div id="Color">
+                <Div class="color">
+                    <li class="c1"></li>
+                    <li class="b1"></li>
+                </Div>
+                <Div class="color">
+                    <li class="c2"></li>
+                    <li class="b2"></li>
+                </Div>
+                <Div class="color">
+                    <li class="c3"></li>
+                    <li class="b3"></li>
+                </Div>
+                <Div class="color">
+                    <li class="c4"></li>
+                    <li class="b4"></li>
+                </Div>
+                <Div class="color">
+                    <li class="g"></li>
+                    <li class="f"></li>
+                    <div id="col">
+                        <input type="color" id="b-color" value="#1e90ff">
+                    </div>
+                </Div>
+            </Div>
+        <Div id="e">
+            <Div id="Title-of">
+                <li>Eraser</li>
+            </Div>
+            <Div id="r">
+                <Div class="er">
+                    <div id="eraserss">
+                        <input type="color" id="eraser-color" value="#1e90ff">
+                    </div>
+                </Div>
+            </Div>
+    </Div>
+        <Div id="en">
+            <Div id="Title-of-end">
+                <li>end</li>
+            </Div>
+            <Div id="r">
+                <Div class="clear">
+                    <div id="cl">
+                        <button id="Clear-button">Clear Canvas</button>
+                    </div>
+                </Div>
+                <Div class="Save-img">
+                    <div id="Sa">
+                        <button id="Save-button">Save As Canvas</button>
+                    </div>
+                </Div>
+    </Div>
+    </Div>
+    <Div id="Box">
+        <li id="Made">Made By Shivansh Dixit</li>
+        <canvas id="can"></canvas>
+    </Div>
+    <script src="../js/Index.js"></script>
+</body>
+</html>
