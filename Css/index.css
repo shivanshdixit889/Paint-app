@@ -1,0 +1,339 @@
+*
+{
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    background-color: #77c0dd;
+    height: 0px;
+}
+#rectangle
+{
+    width: 37px;
+}
+#Line
+{
+    width: 37px;
+}
+#brush
+{
+    width: 37px;
+}
+#rectangle-text
+{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+#Line-text
+{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+.Tool:hover
+{
+    cursor: pointer;
+}
+#Color-fill
+{
+    cursor: pointer;
+}
+#Circle-text
+{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+#triangle-text
+{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+#Fillcolor-text
+{
+    margin-top: -19px;
+    margin-left: 22px;
+}
+#Tools
+{
+    background-color: #ffffff;
+    border-radius: 9px;
+    width: fit-content;
+    position: absolute;
+    height: 609px;
+    z-index: -2;
+    margin-top: -3px;
+}
+#Box
+{
+    border-radius: 9px;
+    width: 1091px;
+    height: 572px;
+    margin-left: 169px;
+    margin-top: -535px;
+}
+#Clear-button
+{
+    background-color: white;
+    border: 2px outset white;
+    font-size: 19px;
+    width: 166px;
+    height: 32px;
+    color: gray;
+    transition-duration: 900ms;
+}
+#Clear-button:hover
+{
+    background-color: rgb(44, 134, 146);
+    border: 2px outset rgb(0, 0, 0);
+    color: white;
+}
+#Save-button
+{
+    background-color: pink;
+    border: 2px outset white;
+    font-size: 19px;
+    width: 166px;
+    height: 32px;
+    color: rgb(173, 113, 0);
+    transition-duration: 900ms;
+}
+#Save-button:hover
+{
+    background-color: rgb(0, 0, 0);
+    border: 2px outset rgb(44, 134, 146);
+    color: rgb(0, 255, 0);
+}
+#Save-button-white
+{
+    background-color: pink;
+    border: 2px outset white;
+    font-size: 19px;
+    width: 166px;
+    height: 90px;
+    color: rgb(173, 113, 0);
+    transition-duration: 900ms;
+}
+#Save-button-white:hover
+{
+    background-color: rgb(0, 0, 0);
+    border: 2px outset rgb(44, 134, 146);
+    color: rgb(0, 255, 0);
+}
+#can
+{
+    border-radius: 9px;
+    width: 1091px;
+    height: 572px;
+}
+#back-color
+{
+    opacity: 0%;
+    width: 28px;
+}
+#b-color
+{
+    opacity: 0%;
+    width: 28px;
+}
+#col
+{
+    margin-top: -25px;
+}
+.c
+{
+    background-color: #1e90ff;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset white;
+}
+.b
+{
+    background-color: #1e90ff;
+    width: 35px;
+    height: 35px;
+    margin-top: -31px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+.c1
+{
+    background-color: #ffffff;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset black;
+}
+.b1
+{
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    margin-top: -31px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+.c2
+{
+    background-color: #000000;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset white;
+}
+.b2
+{
+    background-color: #000000;
+    width: 35px;
+    height: 35px;
+    margin-top: -31px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+.c3
+{
+    background-color: #ff0000;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset #ffffff;
+}
+.b3
+{
+    background-color: #ff0000;
+    width: 35px;
+    height: 35px;
+    margin-top: -31px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+.c4
+{
+    background-color: #d9ff00;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset white;
+}
+.b4
+{
+    background-color: #d9ff00;
+    width: 35px;
+    height: 35px;
+    margin-top: -31px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+.c5
+{
+    background-color: #c0f8ff;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset white;
+}
+.b5
+{
+    background-color: #c0f8ff;
+    width: 35px;
+    height: 35px;
+    margin-top: -31px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+.f
+{
+    background-color: #1e90ff;
+    width: 19px;
+    height: 19px;
+    margin-left: 3px;
+    border-radius: 90px;
+    border: 5px outset white;
+}
+.g
+{
+    background-color: #1e90ff;
+    width: 35px;
+    height: 35px;
+    margin-top: -4px;
+    position: absolute;
+    border-radius: 90px;
+    z-index: -1;
+}
+#Color
+{
+    display: flex;
+}
+#Made
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    #Tools
+    {
+        display: flex;
+        width: 1765px;
+    }
+    #Tools div
+    {
+        display: flex;
+    }
+    #Box
+    {
+        margin-top: 34px;
+        margin-left: -1588px;
+        width: 1402px;
+    }
+    #rectangle-text
+    {
+        display: none;
+    }
+    #Line-text
+    {
+        display: none;
+    }
+    #Circle-text
+    {
+        display: none;
+    }
+    #triangle-text
+    {
+        display: none;
+    }
+    #eraser-text
+    {
+        display: none;
+    }
+    #can
+    {
+        width: 1402px;
+    }
+    #brush-text
+    {
+        display: none;
+    }
+    #Tools img
+    {
+        margin-top: -583px;
+    }
+    #Tools input[type="range"]
+    {
+        margin-top: -583px;
+    }
+}
